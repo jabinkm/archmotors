@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 84px;
+    width: 1366px;
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+}
+.logo{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+.logoimg{
+    height: 45%;
+    position: relative;
+    top: 27%;
+    left: 44%;
+}
+.menu{
+    height: 35px;
+    position: relative;
+    top: 30%;
+    right: 60%;
+}
+.main{
+    position: relative;
+    top: 60px;
+}
+.video video{
+    height: 100%;
+    width: 100%;
+}
+.first{
+    height: 950px;
+    background-image: url(/archmotors/img_1S_48.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    
+}
+.text-container{
+    width: 80%;
+    margin: 80px auto;
+}
+.text-container img{
+    height: 111px;
+    width: 100px;
+    
+}
+.para h3{
+    font-size: 30px;
+    font-family: 'Michroma', sans-serif;
+    margin-bottom: 20px;
+}
+.text-container h2{
+    font-size: 35px;
+    font-family: 'Michroma', sans-serif;
+    margin-bottom: 30px;
+}
+.para{
+    width: 400px;
+    margin-top: 10px;
+    
+}
+.para p{
+    line-height: 1.4;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.second img{
+    width: 100%;
+    height: 100%;
+}
+.engine{
+    width: 710px;
+    position: relative;
+    top: -350px;
+    left: 600px;
+}
+#cap{
+    text-align: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 40px;
+    color: #444444;
+    position: relative;
+    top: -50px;
+}
+.leftpic{
+    width: 65vw;
+    height: 100vh;
+}
+.leftpic img{
+    width:65vw;
+}
+.fourth{
+    height: 100vh;
+    margin: 60px 0;
+    display: flex;
+    justify-content:space-between;
+}
+.right-text{
+    width: 335px;
+    margin-right: 50px;
+}
+.right-text h3{
+    font-size: 23px;
+    font-family: 'Michroma', sans-serif;
+    margin-bottom: 15px;
+}
+.right-text p{
+    line-height: 1.4;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+}
+.align{
+    width: 80%;
+    margin:0px auto;
+    display: flex;
+}
+.align img{
+    height: 357px;
+}
+.spec{
+    width: 400px;
+}
+.spec table{
+    width: 100%;
+    border-style: none;
+    border-spacing: 50px 18px;
+}
+.spec table tr th{
+    background-color:black;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    font-size: 17px;
+}
+.nv{
+    font-size: 55px;
+    font-family: 'Michroma', sans-serif;
+}
+.word{
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+}
+.sixth img{
+    height: 516px;
+    width: 516px;
+}
+.sixth{
+    padding: 50px 0px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns:auto auto;
+    gap: 20px;
+    
+}
+.sixth img:hover{
+    filter: brightness(0.3);
+    transition: 0.5s;
+    background-image: url(./icons.svg);
+    background-size: 32px 32px;
+}
+.seventh{
+    padding: 50px 0px;
+
+}
+.leftp{
+    width: 473px;
+}
+.leftp h3{
+    font-family: 'Michroma', sans-serif;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+.leftp p{
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    line-height: 1.4;
+}
+.center{
+    width: 80%;
+    margin: auto;
+}
+.fullspec{
+    width: 632px;
+    margin: auto;
+}
+.fullspec h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Michroma', sans-serif;
+}
+.t2 tr td{
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    padding: 10px 24px;
+    line-height: 1.5;
+    vertical-align: top;
+}
+.c1{
+    width: 50%;
+}
+footer{
+    background-color: black;
+    margin-top: 150px;
+    height: 248px;
+}
+.outer{
+    width: 70%;
+    margin: auto;
+    
+}
+.one{
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.one span{
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 18px;
+    color: #e7282f;
+    font-weight: 600;
+}
+.one a{
+    color: white;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    text-decoration: none;
+}
+.soc{
+    display: flex;
+}
+.soc img{
+    width: 22px;
+    margin-right: 12px;
+}
+.yt{
+    margin-top: 4px;
+}
+.allrights{
+    color: #9c9c9c;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    position: relative;
+    top: 140px;
+    left: 138px;
+    width: 400px;
+}
